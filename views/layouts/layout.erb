@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Legacy Styles</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/reset.css" media="screen" charset="utf-8" > 
+<link rel="stylesheet" type="text/css" href="stylesheets/legacy.css" media="screen" charset="utf-8" > 
+
+<% if @style == 'serif' %>
+	<link rel="stylesheet" href="stylesheets/serif.css" type="text/css" media="screen" charset="utf-8" />
+<% end %>
+
+<% if @color == 'color-1' %>
+	<link rel="stylesheet" href="stylesheets/color-1.css" type="text/css" media="screen" charset="utf-8" />
+<% end %>
+</head>
+
+<body>
+	
+<%= yield %>
+
+</body>
+
+</html>

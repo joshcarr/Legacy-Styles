@@ -1,0 +1,27 @@
+/*
+
+green: 	#98AF2D
+blue:	#2A6A99
+yellow:	#EACB64
+
+*/
+
+body{
+	background: #7E8608;
+	color: #F2FF36;
+}
+h1, h2, h3, h4, h5, h6 {color:#F2FF32;}
+
+blockquote {
+color:#FF9832;
+}
+
+a{
+	color: #170D80;
+}
+a:visited{
+	color: #5E57A1;
+}
+a:hover, a:focus{
+	color: #5A4BF3;
+}
